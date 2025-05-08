@@ -1,73 +1,27 @@
-/* Reset some basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body and global styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Navbar styles */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222;
-    padding: 1rem 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .logo {
-    color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    color: #ffcc00;
-  }
-  
-  /* Section styles */
-  section {
-    padding: 4rem 2rem;
-    background: #fff;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  section:nth-of-type(even) {
-    background: #f9f9f9;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    padding: 2rem;
-    background: #222;
-    color: #fff;
-  }
-  
+font-family: Arial, sans-serif;
+margin: 0;
+background: #f4f4f4;
+nav {
+}
+background: #333;
+color: white;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+nav a {
+}
+color: white;
+text-decoration: none;
+margin: 0 1rem;
+nav a:hover {
+color: #ffd7ee;
+}
+main {
+padding: 2rem;
+}
+footer {
+}
+text-align: center;
+padding: 1rem;
+background: #333;
+color: white;
